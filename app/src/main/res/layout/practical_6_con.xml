@@ -2,14 +2,22 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <!-- activity_main.xml -->
     <FrameLayout
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".Practical_6_Con">
-
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/userlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+        <Button
+            android:id="@+id/pr7New"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move to PR7"
+            android:layout_gravity="center|bottom"
+            />
     </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

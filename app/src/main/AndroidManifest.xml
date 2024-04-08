@@ -26,6 +26,10 @@
             android:exported="true">
         </activity>
         <activity
+            android:name=".Practical_4_Con"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".Practical_5"
             android:exported="true">
         </activity>
@@ -41,6 +45,87 @@
             android:name=".Practical_6_Con"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".Practical_7"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_7_Con"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_8"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_8_Con"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_9"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_9_Con"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_10"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_10_Con"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_11"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_12"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_13"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_14"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_15"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_16"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_17"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_18"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_20"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_22"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_23"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Practical_24"
+            android:exported="true">
+        </activity>
+
     </application>
 
 </manifest>

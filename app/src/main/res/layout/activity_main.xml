@@ -1,30 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World! This is the Practical 4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
-        android:id="@+id/PR4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next Q of Pratical 4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61" />
+        android:layout_margin="16dp"
+        android:text = "Practical 01"
+        android:id="@+id/btn1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text = "Practical 02"
+        android:layout_toEndOf="@id/btn1"
+        android:id="@+id/btn2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn1"
+        android:text = "Practical 03"
+        android:id="@+id/btn3"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn1"
+        android:layout_toEndOf="@id/btn3"
+        android:text = "Practical 04"
+        android:id="@+id/btn4"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn3"
+        android:layout_margin="16dp"
+        android:text = "Practical 05"
+        android:id="@+id/btn5"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn3"
+        android:layout_toEndOf="@id/btn5"
+        android:text = "Practical 06"
+        android:id="@+id/btn6"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn5"
+        android:text = "Practical 07"
+        android:id="@+id/btn7"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn5"
+        android:layout_toEndOf="@id/btn7"
+        android:text = "Practical 08"
+        android:id="@+id/btn8"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn7"
+        android:text = "Practical 09"
+        android:id="@+id/btn9"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn7"
+        android:layout_toEndOf="@id/btn9"
+        android:text = "Practical 10"
+        android:id="@+id/btn10"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn9"
+        android:text = "Practical 11"
+        android:id="@+id/btn11"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text = "Practical 12"
+        android:layout_below="@id/btn9"
+        android:layout_toEndOf="@id/btn11"
+        android:id="@+id/btn12"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn11"
+        android:text = "Practical 13"
+        android:id="@+id/btn13"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn11"
+        android:layout_toEndOf="@id/btn13"
+        android:text = "Practical 14"
+        android:id="@+id/btn14"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn13"
+        android:text = "Practical 15"
+        android:id="@+id/btn15"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn13"
+        android:layout_toEndOf="@+id/btn15"
+        android:text = "Practical 16"
+        android:id="@+id/btn16"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn15"
+        android:text = "Practical 17"
+        android:id="@+id/btn17"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/btn15"
+        android:layout_toEndOf="@id/btn17"
+        android:text = "Practical 18"
+        android:id="@+id/btn18"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

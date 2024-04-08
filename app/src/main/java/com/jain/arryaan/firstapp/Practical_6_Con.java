@@ -1,40 +1,48 @@
 package com.jain.arryaan.firstapp;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.FrameLayout;
-import android.widget.TextView;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Practical_6_Con extends AppCompatActivity {
-        @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.practical_6_con);
-
-
-            // Create TextViews for each data type
-            TextView intTextView = new TextView(this);
-            intTextView.setText("int: " + Integer.MAX_VALUE);
-
-            TextView doubleTextView = new TextView(this);
-            doubleTextView.setText("double: " + Double.MAX_VALUE);
-
-            TextView booleanTextView = new TextView(this);
-            booleanTextView.setText("boolean: " + Boolean.TRUE);
-
-            TextView charTextView = new TextView(this);
-            charTextView.setText("char: " + Character.MAX_VALUE);
-
-            TextView stringTextView = new TextView(this);
-            stringTextView.setText("String: Hello, world!");
-
-            // Add TextViews to FrameLayout
-            FrameLayout frameLayout = findViewById(R.id.frameLayout);
-            frameLayout.addView(intTextView);
-            frameLayout.addView(doubleTextView);
-            frameLayout.addView(booleanTextView);
-            frameLayout.addView(charTextView);
-            frameLayout.addView(stringTextView);
-        }
+        private ListView mListView;
+    private ArrayAdapter aAdapter;
+    private String[] users = { "Integer", "Float", "Double", "Charecter"};
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.practical_6_con);
+        mListView = (ListView) findViewById(R.id.userlist);
+        aAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, users);
+        mListView.setAdapter(aAdapter);
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view,
+                                    int position, long id) {
+// ListView Clicked item index
+                int itemPosition = position;
+// ListView Clicked item value
+                String itemValue = (String) mListView.getItemAtPosition(position);
+// Show Alert
+                Toast.makeText(getApplicationContext(),
+                                itemValue , Toast.LENGTH_LONG)
+                        .show();
+            }
+        });
+        Button pr7 = findViewById(R.id.pr7New);
+        pr7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Practical_6_Con.this,Practical_7.class);
+                startActivity(intent);
+            }
+        });
+    }
 }

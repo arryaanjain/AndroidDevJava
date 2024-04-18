@@ -50,8 +50,54 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        btn12.setOnClickListener(new View.OnClickListener() {
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {// Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_6.class);
+                startActivity(intent)
+            }
+        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_7.class);
+                startActivity(intent);
+            }
+        });
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_8.class);
+                startActivity(intent);
+            }
+        });
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_9.class);
+                startActivity(intent);
+            }
+        });
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_10.class);
+                startActivity(intent);
+            }
+        });
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_11.class);
+                startActivity(intent);
+            }
+        });
+        btn9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Define the action to go to the next screen
@@ -59,6 +105,77 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        btn10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_13.class);
+                startActivity(intent);
+            }
+        });
+        btn11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_14.class);
+                startActivity(intent);
+            }
+        });
+        btn12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_15.class);
+                startActivity(intent);
+            }
+        });
+        btn13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_16.class);
+                startActivity(intent);
+            }
+        });
+        btn14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_17.class);
+                startActivity(intent);
+            }
+        });
+        btn15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_18.class);
+                startActivity(intent);
+            }
+        });
+        btn16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_20.class);
+                startActivity(intent);
+            }
+        });
+        btn17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_22.class);
+                startActivity(intent);
+            }
+        });
+        btn18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Define the action to go to the next screen
+                Intent intent = new Intent(MainActivity.this, Practical_23.class);
+                startActivity(intent);
+            }
+        });
     }
 }
